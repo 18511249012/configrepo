@@ -1,0 +1,17 @@
+server: 
+  port: ${port:8090}
+info:
+  info: ¼à¿Ø·þÎñ
+  version: 1.0
+security: 
+  ignored: /api/**
+  user: 
+      name: ${admin.username:admin}
+      password: ${admin.password:{cipher}AQAl7fgaZFCLHB/+ZCA+IjHeTc4juL1HYXYvSPZcOjc/jtyCvM+M28a6a8f/3G5ptnUv/MHvGX83HFK+dGg70xt5bRmRhjUKC9bH610FB2M1oCkYWmAYBsl+9YJUoxgM4QpyIn99Z3Sj2iUgaXT+4Stf2oGfmShFqjLtbOM/6OzDcAobXRko6h81wY3YJV+OowsLECQR8yaNMpGVlsf6ViVpLbmpefOgxKvhT5JtuRH7U9FCLM+qowkn0DLSaquT1nGf6OLBPAqlsgU0AT6Qw/p8ICY2XwaT5FnVMtp0veFB4hqXr7CDAlm1XAQvHoZGT1QWEYoVXxDu7gTqPdFDZzl3tVDmEPikW6nEVO+scJGC2F26TUCSRLqino6sqI}
+spring:
+  jackson:
+    serialization: 
+      indent-output: true
+endpoints: 
+   health: 
+       sensitive: false

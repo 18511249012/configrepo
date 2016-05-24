@@ -7,8 +7,7 @@ spring:
          uris: http://${etcd.host:192.168.163.128}:${etcd.port:2379}
          discovery:
             preferIpAddress: true
-spring:
-    boot:
+  boot:
        admin:
             url: http://${admin.host:10.41.1.213}:${admin.port:8090}
 

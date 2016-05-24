@@ -7,7 +7,7 @@ security:
   ignored: /api/**
   user: 
       name: ${admin.username:admin}
-      password: ${admin.password:{cipher}AQAl7fgaZFCLHB/+ZCA+IjHeTc4juL1HYXYvSPZcOjc/jtyCvM+M28a6a8f/3G5ptnUv/MHvGX83HFK+dGg70xt5bRmRhjUKC9bH610FB2M1oCkYWmAYBsl+9YJUoxgM4QpyIn99Z3Sj2iUgaXT+4Stf2oGfmShFqjLtbOM/6OzDcAobXRko6h81wY3YJV+OowsLECQR8yaNMpGVlsf6ViVpLbmpefOgxKvhT5JtuRH7U9FCLM+qowkn0DLSaquT1nGf6OLBPAqlsgU0AT6Qw/p8ICY2XwaT5FnVMtp0veFB4hqXr7CDAlm1XAQvHoZGT1QWEYoVXxDu7gTqPdFDZzl3tVDmEPikW6nEVO+scJGC2F26TUCSRLqino6sqI}
+      password: ${admin.password:{cipher}AQBh1HFMUeAF1QRZKQ8qTDd0CWURcSArRG/taVROzxni7xDTA1OxqxRCk6RXxWqoWcoFBjAdL3RXnNBLXZTkIwzi61uBydCF/0he6WCIirKQh0xdeixmITlJSD960XtGFR1WI+BqC0S0Y4jpE2SxG5XBvL395m9ieT1w9hFzvSK7pdYEFdzlinaM634zNGpm1tAfVG2b9ZaH8Qp7Aupr79xdbIvyVjgJ4pNes2cH3lDMAIHk5z94AV51jTBA+1eaHn38T16RneGWPjfWJA1VuQy/EsAg6YsCgN99OuTyfNu1R1R3/jch7ikPGnbRsuvC/GqSOhndSfcqiSQXLke4e+kSuT6UGl4DLuhadyeXJOTkW4NeQzkQyLdTUSKVFlccd84=}
 spring:
   jackson:
     serialization: 

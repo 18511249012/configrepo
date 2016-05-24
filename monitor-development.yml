@@ -1,7 +1,7 @@
 server: 
   port: ${port:8090}
 info:
-  info: ¼à¿Ø·şÎñ
+  info: ç›‘æ§æœåŠ¡
   version: 1.0
 security: 
   ignored: /api/**

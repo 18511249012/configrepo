@@ -3,3 +3,8 @@ server:
 ribbon:
     etcd:
         enable: true
+zuul:
+    routes:
+        hcc:
+             path: /hcc/**
+             serviceId: hcc

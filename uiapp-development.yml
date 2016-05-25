@@ -10,4 +10,4 @@ zuul:
     routes:
         hcc:
              path: /hcc/**
-             serviceId: hcc
+             uri: http://localhost:8082

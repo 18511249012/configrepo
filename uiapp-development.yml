@@ -7,4 +7,4 @@ zuul:
     routes:
         hcc:
              path: /hcc/**
-             serviceId: hcc:development:8082
+             serviceId: hcc

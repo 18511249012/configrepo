@@ -3,6 +3,9 @@ server:
 ribbon:
     etcd:
         enable: true
+    ReadTimeout: 270000
+    ConnectTimeout: 10000
+    ServerListRefreshInterval: 1000
 zuul:
     routes:
         hcc:

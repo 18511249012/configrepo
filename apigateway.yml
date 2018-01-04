@@ -1,17 +1,16 @@
----
 spring:
-  profiles: cloudpeers
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: ${vcap.services.${PREFIX:}othereureka.credentials.uri:http://${PREFIX:}othereureka.${application.domain:cfapps.io}}/eureka/
-
----
-spring:
-  profiles: docker
   cloud:
     gateway:
       enabled: true
+      routes:
+      # =====================================
+      - id: foo-routes
+        uri: lb://foo
+        predicates:
+        - Path=/foo/{segment}
+      discovery:
+        locator:
+          enabled: true
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 10
